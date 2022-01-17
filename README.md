@@ -9,5 +9,9 @@
 ## 笔记详情
 ## 用户笔记列表
 ## 话题笔记列表
+## 其他
+## 支持包月
 
 有需要的[联系](https://qm.qq.com/cgi-bin/qm/qr?k=gsXU_14bQsI8BdSevrFzHU7vIYnRCnFQ&noverify=0)
+
+### 另有[抖音](https://github.com/canglingzhiyue/douyin)数据采集
