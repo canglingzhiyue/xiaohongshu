@@ -6,7 +6,7 @@
 ```
 /xhs/search
 ```
-#参数:
+### 参数:
 - searchType: general=综合，hot=最热，time=最新
 - kw 关键词
 - sortType  all	筛选笔记：all=不限 ，videos=视频， notes=图文 笔记 
@@ -16,14 +16,14 @@
 ```
 /xhs/user/detail
 ```
-#参数:
+### 参数:
 - userId
 
 ## 用户笔记列表
 ```
 /xhs/note/list
 ```
-#参数:
+### 参数:
 - userId
 - pageIndex 翻页参数，默认1
 
@@ -31,7 +31,7 @@
 ```
 /xhs/note/comments
 ```
-#参数:
+### 参数:
 - noteId
 - startId 页参数，默认0，列表最后用户id作为下一页翻页参数
 
@@ -39,14 +39,14 @@
 ```
 /xhs/note/detail
 ```
-#参数:
+### 参数:
 - noteId
 
 ## 话题笔记列表
 ```
 /xhs/note/topics
 ```
-#参数:
+### 参数:
 - pageId topic分享页的id
 - cursor 首次为空，根据结果返回的cursor传入作为下一页翻页参数
 - searchType hot=最热，time=最新
