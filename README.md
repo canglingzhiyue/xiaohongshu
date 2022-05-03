@@ -61,6 +61,25 @@
 - cursor 首次为空，根据结果返回的cursor传入作为下一页翻页参数
 - searchType hot=最热，time=最新
 
+
+## 关注列表
+```
+/xhs/user/focus
+```
+### 参数:
+- userId 用户id
+- pageIndex 首次为空，翻页游标， 根据结果返回的cursor传入作为下一页翻页参数
+
+
+## 粉丝列表
+```
+/xhs/user/fans
+```
+### 参数:
+- userId 用户id
+- pageIndex 首次为空，翻页游标， 根据结果返回的cursor传入作为下一页翻页参数
+
+
 ## 其他
 
 
