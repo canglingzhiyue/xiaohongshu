@@ -1,5 +1,5 @@
 # xiaohongshu
-小红书数据采集， 原生官方api, 支持日采百万！
+小红书数据采集， 原生官方api, 支持日采400万+！
 
  
 ## 搜索
@@ -9,7 +9,7 @@
 ### 参数:
 - searchType: general=综合，hot=最热，time=最新
 - kw 关键词
-- sortType  all	筛选笔记：all=不限 ，videos=视频， notes=图文 笔记 
+- sortType  默认all	筛选笔记：all=不限 ，videos=视频， notes=图文 笔记 
 - pageIndex 翻页参数 1-50
 
 ## 用户信息
@@ -33,7 +33,17 @@
 ```
 ### 参数:
 - noteId
-- startId 翻页参数，默认空，列表最后用户id作为下一页翻页参数
+- startId 翻页参数，默认0，列表最后用户id作为下一页翻页参数
+
+## 评论回复
+```
+/xhs/note/comment_reply
+```
+### 参数:
+- noteId 笔记ID
+- commentId 回复列表第一个targetCommentId 需从笔记评论接口获取
+- startId 翻页参数，默认0，列表最后用户id作为下一页翻页参数
+
 
 ## 笔记详情
 ```
