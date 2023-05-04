@@ -10,7 +10,7 @@
 
 |参数名|类型|必选|说明|
 |--|:--:|:--:|:--|
-|apikey|string|是|访问凭证|
+|token|string|是|访问凭证|
 |kw|string|是|关键词|
 |sortType|string|是|0=默认，1=图文，2=视频|
 |pageIndex|int|是|0=默认，翻页参数1-50页|
@@ -1298,7 +1298,7 @@
 
 |参数名|类型|必选|说明|
 |--|:--:|:--:|:--|
-|apikey|string|是|访问凭证|
+|token|string|是|访问凭证|
 |userId|string|是|用户id|
 
 ```go
@@ -1445,10 +1445,11 @@
 ```
 /xhs/note/list
 ```
+
 ### 参数:
 |参数名|类型|必选|说明|
 |--|:--:|:--:|:--|
-|apikey|string|是|访问凭证|
+|token|string|是|访问凭证|
 |userId|string|是|用户ID|
 |pageIndex|string|是|翻页参数，首次默认为0，根据返回结果请求下一页|
 
@@ -4117,7 +4118,7 @@
 
 |参数名|类型|必选|说明|
 |--|:--:|:--:|:--|
-|apikey|string|是|访问凭证|
+|token|string|是|访问凭证|
 |noteId|string|是|笔记id|
 |commentId|string|否|评论组id|
 |startId|string|否|评论组第一个评论的id|
@@ -4365,7 +4366,7 @@
 
 |参数名|类型|必选|说明|
 |--|:--:|:--:|:--|
-|apikey|string|是|访问凭证|
+|token|string|是|访问凭证|
 |noteId|string|是|笔记id|
 
 ```go
