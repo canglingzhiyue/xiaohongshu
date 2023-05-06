@@ -1,11 +1,7 @@
 # xiaohongshu
 ## 2023 小红书数据采集， 原生官方api, 支持日采400万+！
 ##  数据均为app实时数据，非市面上缓存数据，请自行鉴定。
- 
- <details>
-  <summary>**展开查看源码**</summary>
-  展开的内容及代码块
-</details>
+
  
 ## 1.搜索笔记
 ```
@@ -21,7 +17,9 @@
 |searchType|string|是|0=默认，1=图文，2=视频|
 |pageIndex|int|是|1=默认，翻页参数1-50页|
 
-```go
+ <details>
+  <summary>**展开查看返回代码**</summary>
+  ```go
 {
     "code": 0,
     "success": true,
@@ -1294,6 +1292,9 @@
 }
 
 ```
+</details>
+
+
 
 ## 2.搜索用户
 ```
