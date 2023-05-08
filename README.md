@@ -1799,7 +1799,7 @@
 |--|:--:|:--:|:--|
 |token|string|是|访问凭证|
 |userId|string|是|用户ID|
-|pageIndex|string|是|翻页参数，首次默认为0，根据返回结果请求下一页|
+|pageIndex|string|是|翻页参数，首次默认为0，根据返回结果cursor获取下一页|
 <details> 
  <summary><font size="4" color="orange">查看返回数据</font></summary> 
  <pre>
