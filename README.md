@@ -6090,5 +6090,5 @@
 ### 或者加TG(@PAQ01)：
 ![tg](https://api.isoyu.com/qr/?m=0&e=L&p=10&url=https%3A%2F%2Ft.me%2Fpaq01)
 
-### 另有[抖音(暂停)](https://github.com/canglingzhiyue/douyin)数据采集
-### [拼多多(暂停)](https://github.com/canglingzhiyue/pdd)数据接口
+<!-- ### 另有[抖音(暂停)](https://github.com/canglingzhiyue/douyin)数据采集
+### [拼多多(暂停)](https://github.com/canglingzhiyue/pdd)数据接口 -->
