@@ -4948,8 +4948,8 @@
 ### 参数:
 |参数名|类型|必选|说明|
 |--|:--:|:--:|:--|
-|token|string|是|用户ID|
-|userId|string|是|访问凭证|
+|token|string|是|访问凭证|
+|userId|string|是|用户ID|
 |pageIndex|string|是|翻页参数，默认=0，根据返回结果cursor获取下一页|
 <details> 
  <summary><font size="4" color="orange">查看返回数据</font></summary> 
@@ -5073,8 +5073,8 @@
 ### 参数:
 |参数名|类型|必选|说明|
 |--|:--:|:--:|:--|
-|token|string|是|用户ID|
-|userId|string|是|访问凭证|
+|token|string|是|访问凭证|
+|userId|string|是|用户ID|
 |pageIndex|string|是|翻页参数，默认=0，根据返回结果cursor获取下一页|
 <details> 
  <summary><font size="4" color="orange">查看返回数据</font></summary> 
@@ -5198,8 +5198,8 @@
 ### 参数:
 |参数名|类型|必选|说明|
 |--|:--:|:--:|:--|
-|token|string|是|用户ID|
-|userId|string|是|访问凭证|
+|token|string|是|访问凭证|
+|userId|string|是|用户ID|
 |pageIndex|string|是|翻页参数，默认=0，根据返回结果cursor获取下一页|
 <details> 
  <summary><font size="4" color="orange">查看返回数据</font></summary> 
