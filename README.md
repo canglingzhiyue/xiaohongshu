@@ -3163,7 +3163,7 @@
 |--|:--:|:--:|:--|
 |token|string|是|访问凭证|
 |noteId|string|是|笔记id|
-|startId|string|是|0=默认,翻页参数，默认为0，根据返回结果最后target_comment里面的id作为下一页翻页参数|
+|startId|string|是|0=默认，根据返回结果最后target_comment里面的id作为下一页翻页参数, 也可以直接用最后一个评论的ID|
 <details> 
  <summary><font size="4" color="orange">查看返回数据</font></summary> 
  <pre>
