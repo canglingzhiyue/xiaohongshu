@@ -24,8 +24,8 @@
 |--|:--:|:--:|:--|
 |token|string|是|访问凭证|
 |kw|string|是|关键词|
-|sortType|string|是|0=综合，1=最热，2=最新|
-|searchType|string|是|0=默认，1=图文，2=视频|
+|sortType|string|是|0=默认，1=图文，2=视频|
+|searchType|string|是|0=综合，1=最热，2=最新|
 |pageIndex|int|是|1=默认，翻页参数1-50页|
 
 <details> 
