@@ -149,7 +149,7 @@
 若因使用本服务与平台造成不必要的纠纷，本人盖不负责  
 本人纯粹技术爱好，若侵犯贵公司的权益，请告知  
 ```
-
+### [抖音](https://github.com/canglingzhiyue/douyin)
 <!-- 
  ![qq](https://qr.api.cli.im/newqr/create?data=https%253A%252F%252Fqm.qq.com%252Fcgi-bin%252Fqm%252Fqr%253Fk%253DgsXU_14bQsI8BdSevrFzHU7vIYnRCnFQ%2526noverify%253D0&level=H&transparent=false&bgcolor=%23FFFFFF&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&logoshape=no&size=500&kid=cliim&key=211db538a2ba8c28441f5d952fe165db)
 
@@ -157,5 +157,4 @@
 ###
 ~~![tg](https://api.isoyu.com/qr/?m=0&e=L&p=10&url=https%3A%2F%2Ft.me%2Fxhsapi)~~
 
-### [抖音](https://github.com/canglingzhiyue/douyin)
 ~~### [拼多多(暂停)](https://github.com/canglingzhiyue/pdd)~~ -->
