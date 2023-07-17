@@ -1,4 +1,4 @@
-<--
+<!--
 # xiaohongshu
 ##  小红书数据采集， 原生官方api, 支持日采400万+！
 ##  数据均为app实时数据，非市面上缓存数据，请自行鉴定。
@@ -172,7 +172,7 @@
 ``` 
 
 ### [抖音](https://github.com/canglingzhiyue/douyin)
- <--
+ <!--
  ![qq](https://qr.api.cli.im/newqr/create?data=https%253A%252F%252Fqm.qq.com%252Fcgi-bin%252Fqm%252Fqr%253Fk%253DgsXU_14bQsI8BdSevrFzHU7vIYnRCnFQ%2526noverify%253D0&level=H&transparent=false&bgcolor=%23FFFFFF&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&logoshape=no&size=500&kid=cliim&key=211db538a2ba8c28441f5d952fe165db)
 
 ~~### 或者添加TG(@XHSAPI)：~~
