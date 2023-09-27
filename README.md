@@ -14,134 +14,6 @@
 |500001|系统内部异常|
 |500002|请求有问题|
 
- 
-## 1.搜索笔记
-```
-/xhs/searchNote
-```
-
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|kw|string|是|关键词|
-|sortType|string|是|0=综合，1=最热，2=最新|
-|searchType|string|是|0=默认，1=图文，2=视频|
-|pageIndex|int|是|1=默认，翻页参数1-50页|
-
-
-## 2.搜索用户
-```
-/xhs/searchUser
-```
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|kw|string|是|关键词|
-|pageIndex|int|是|1=默认，翻页参数1-50页|
-
-## 3.用户信息
-```
-/xhs/user/detail
-```
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|userId|string|是|用户id|
-
-
-## 4.用户笔记列表
-```
-/xhs/note/list
-```
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|userId|string|是|用户ID|
-|pageIndex|string|是|翻页参数，首次默认为0，根据返回结果cursor获取下一页|
-
-## 5.评论列表
-```
-/xhs/note/comments
-```
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|noteId|string|是|笔记id|
-|startId|string|是|0=默认，根据返回结果最后target_comment里面的id作为下一页翻页参数, 也可以直接用最后一个评论的ID|
-
-## 6.评论回复
-```
-/xhs/note/comment_reply
-```
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|noteId|string|是|笔记id|
-|commentId|string|否|评论组id|
-|startId|string|否|评论组第一个评论的id|
-
-## 7.笔记详情
-```
-/xhs/note/detail
-```
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|noteId|string|是|笔记id|
-
-
-## 8.关注列表
-```
-/xhs/user/focus
-```
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|userId|string|是|用户ID|
-|pageIndex|string|是|翻页参数，默认=0，根据返回结果cursor获取下一页|
-
-## 9.粉丝列表
-```
-/xhs/user/fans
-```
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|userId|string|是|用户ID|
-|pageIndex|string|是|翻页参数，默认=0，根据返回结果cursor获取下一页|
-
-
-## 10.收藏列表
-```
-/xhs/user/faver
-```
-### 参数:
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-|userId|string|是|用户ID|
-|pageIndex|string|是|翻页参数，默认=0，根据返回结果cursor获取下一页|
-
-
-
-## 其他
-### 调用次数/剩余次数查询
-```
-/user/reqCount
-```
-|参数名|类型|必选|说明|
-|--|:--:|:--:|:--|
-|token|string|是|访问凭证|
-
 -->
 
 # 小红书 app 
@@ -151,11 +23,16 @@
 ## 搜索-下拉推荐
 ## 首页笔记列表
 ## 首页分类列表
-
 ## 搜索笔记
 ## 搜索用户
-## 笔记详情
+## 搜索推荐
+## 搜索-发现热点
+## 首页-分类列表
+## 首页-笔记列表
+## 话题详情
+## 话题笔记列表
 ## 主页详情
+## 笔记详情
 ## 笔记列表
 ## 评论列表
 ## 评论回复
