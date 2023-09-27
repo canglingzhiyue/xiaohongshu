@@ -58,9 +58,11 @@
 ###
 <img src="https://qr.api.cli.im/newqr/create?data=https%253A%252F%252Fqm.qq.com%252Fcgi-bin%252Fqm%252Fqr%253Fk%253DgsXU_14bQsI8BdSevrFzHU7vIYnRCnFQ%2526noverify%253D0&level=H&transparent=false&bgcolor=%23FFFFFF&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&logoshape=no&size=500&kid=cliim&key=211db538a2ba8c28441f5d952fe165db" width="20%">
 
+### [小红书](https://github.com/canglingzhiyue/xiaohongshu)
 ### [抖音](https://github.com/canglingzhiyue/douyin)
 ### [知乎](https://github.com/canglingzhiyue/zhihu)
-
+### [快手](https://github.com/canglingzhiyue/kuaishou)
+### [热搜榜](https://github.com/canglingzhiyue/hot_search)
  <!--
 ~~### 或者添加TG(@XHSAPI)：~~
 ###
