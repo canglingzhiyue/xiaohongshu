@@ -1,4 +1,5 @@
-<!--  ### 江湖再见 ##  小红书数据采集, 支持日采400万+！  -->
+### 江湖再见 ## 
+<!--   小红书数据采集, 支持日采400万+！  
           
 # xiaohongshu
    
@@ -61,3 +62,4 @@
 
 ### [小红书](https://github.com/canglingzhiyue/xiaohongshu)
 ### [热搜榜](https://github.com/canglingzhiyue/hot_search)
+-->
